@@ -9,8 +9,8 @@ window.boot = function () {
     function setLoadingDisplay () {
         // Loading splash scene
         var splash = document.getElementById('splash');
-       // var progressBar = splash.querySelector('.progress-bar span');
-        /*onProgress = function (finish, total) {
+        /*var progressBar = splash.querySelector('.progress-bar span');
+        onProgress = function (finish, total) {
             var percent = 100 * finish / total;
             if (progressBar) {
                 progressBar.style.width = percent.toFixed(2) + '%';
